@@ -11,7 +11,7 @@
                 <div class="col-md-6 ftco-animate">
                     <div class="text w-100">
                         <h1 class="mb-4">Welcome to our Philadelpia Clinic</h1>
-                        <p class="">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p class="">To be the hospital of choice by providing reliable & quality health care services as well as Providing sincere heart care with professional, quality and cost effective behavior.</p>
                         <p><a href="#register" class="btn btn-primary">Health Check !</a></p>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                 <div class="col-md-6 ftco-animate">
                     <div class="text w-100">
                         <h1 class="mb-4">Philadelpia care for the whole family</h1>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Philadelpia, there live the blind texts.</p>
+                        <p>To be the hospital of choice by providing reliable & quality health care services as well as Providing sincere heart care with professional, quality and cost effective behavior.</p>
                         <p><a href="#register" class="btn btn-primary">Health Check !</a></p>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
 
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input name="nama" type="text" class="form-control" placeholder="Your Name">
+                                        <input name="nama" type="text" class="form-control" placeholder="Your Name" required>
                                     </div>
                                 </div>
 
@@ -61,7 +61,7 @@
                                     <div class="form-field">
                                     <div class="select-wrap">
                                     <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                                        <select name="jenis_kelamin" class="form-control" id="jenis_kelamin">
+                                        <select name="jenis_kelamin" class="form-control" id="jenis_kelamin" required>
                                             <option value="">Gender</option>
                                             <option value="L">Laki-Laki</option>
                                             <option value="P">Perempuan</option>
@@ -79,13 +79,13 @@
 
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="alamat" name="alamat" class="form-control" placeholder="Address">
+                                        <input type="alamat" name="alamat" class="form-control" placeholder="Address" required>
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="number" name="no_telp" class="form-control" placeholder="Phone number">
+                                        <input type="number" name="no_telp" class="form-control" placeholder="Phone number" required>
                                     </div>
                                 </div>
 
