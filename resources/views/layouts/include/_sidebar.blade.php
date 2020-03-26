@@ -8,6 +8,8 @@
                 <li><a href="/pasien" class=""><i class="lnr lnr-wheelchair"></i> <span>Pasien</span></a></li>
                 <li><a href="/kategori_penyakit" class=""><i class="lnr lnr-book"></i> <span>Kategori Penyakit</span></a></li>
                 <li><a href="/dokter" class=""><i class="lnr lnr-user"></i> <span>Dokter</span></a></li>
+                <li><a href="/obat" class=""><i class="lnr lnr-unlink"></span></i> <span>Obat</span></a></li>
+                <li><a href="/penyakit" class=""><i class="lnr lnr-heart-pulse"></span></i> <span>Penyakit</span></a></li>
             </ul>
         </nav>
     </div>

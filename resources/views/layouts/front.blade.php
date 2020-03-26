@@ -66,8 +66,7 @@
 	        	<li class="nav-item"><a href="/#feedback" class="nav-link">Feedback</a></li>
 	        	<li class="nav-item"><a href="/halpasien" class="nav-link">Patient</a></li>
 	        	<li class="nav-item"><a href="/haldokter" class="nav-link">Doctor</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href="/periksa" class="nav-link">Health Check</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -84,7 +83,7 @@
         <div class="row mb-5">
           <div class="col-md-6 col-lg">
             <div class="ftco-footer-widget py-4 py-md-5">
-              <h2 class="logo"><a href="#">Philadelpia Clinic</a></h2>
+              <h2 class="logo"><a href="/">Philadelpia Clinic</a></h2>
               <p>To be the hospital of choice by providing reliable & quality health care services as well as Providing sincere heart care with professional, quality and cost effective behavior.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-4">
                 <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
@@ -99,10 +98,7 @@
               <ul class="list-unstyled">
                 <li><a href="/halpasien" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Patient Information</a></li>
                 <li><a href="/haldokter" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Doctor Information</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Manual Lympahtic</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Medical Acupuncture</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Therapeutic Exercise</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Joint Mobilization</a></li>
+                <li><a href="/periksa" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Health Check</a></li>
               </ul>
             </div>
           </div>

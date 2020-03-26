@@ -12,7 +12,7 @@
                     <div class="text w-100">
                         <h1 class="mb-4">Welcome to our Philadelpia Clinic</h1>
                         <p class="">To be the hospital of choice by providing reliable & quality health care services as well as Providing sincere heart care with professional, quality and cost effective behavior.</p>
-                        <p><a href="#register" class="btn btn-primary">Health Check !</a></p>
+                        <p><a href="/periksa" class="btn btn-primary">Health Check !</a></p>
                     </div>
                 </div>
                 </div>
@@ -27,7 +27,7 @@
                     <div class="text w-100">
                         <h1 class="mb-4">Philadelpia care for the whole family</h1>
                         <p>To be the hospital of choice by providing reliable & quality health care services as well as Providing sincere heart care with professional, quality and cost effective behavior.</p>
-                        <p><a href="#register" class="btn btn-primary">Health Check !</a></p>
+                        <p><a href="/periksa" class="btn btn-primary">Health Check !</a></p>
                     </div>
                 </div>
                 </div>

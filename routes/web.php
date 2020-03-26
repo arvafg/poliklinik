@@ -43,6 +43,7 @@ Route::post('/pasien/{id}/update','PasienController@update');
 Route::get('/pasien/{id}/delete','PasienController@delete');
 
 Route::get('/halpasien','PasienController@halpasien');
+Route::get('/periksa','PeriksaController@periksa');
 
 
 //poliklinik route
@@ -69,3 +70,17 @@ Route::post('/dokter/{id}/update','DokterController@update');
 Route::get('/dokter/{id}/delete','DokterController@delete');
 
 Route::get('/haldokter','dokterController@haldokter');
+
+//obat
+Route::get('/obat','ObatController@obat');
+Route::post('/obat/create','ObatController@create');
+Route::get('/obat/{id}/edit_obat','ObatController@edit');
+Route::post('/obat/{id}/update','ObatController@update');
+Route::get('/obat/{id}/delete','ObatController@delete');
+
+//penyakit
+Route::get('/penyakit','PenyakitController@penyakit');
+Route::post('/penyakit/create','PenyakitController@create');
+Route::get('/penyakit/{id}/edit_penyakit','PenyakitController@edit');
+Route::post('/penyakit/{id}/update','PenyakitController@update');
+Route::get('/penyakit/{id}/delete','PenyakitController@delete');
