@@ -10,7 +10,7 @@
                 </div>
 
                 <div class="navbar-btn">
-                <button><a href="/" class="lnr lnr-home"></a></button>
+                <button><a href="/logout" class="lnr lnr-home"></a></button>
                 </div>
 
 				<form class="navbar-form" >

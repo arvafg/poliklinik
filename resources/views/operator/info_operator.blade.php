@@ -43,7 +43,6 @@
                                         </tr>
                                     </thead>
 
-
                                     <tbody>
                                         @php $no = 1; @endphp
                                         @foreach($data_operator as $operator)

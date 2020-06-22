@@ -56,7 +56,7 @@
 	        <span class="fa fa-bars"></span> Menu
 	      </button>
 				<div class="order-lg-last">
-          <a href="/operator" class="btn btn-info">By Admin</a>
+          <a href="/login" class="btn btn-info">By Admin</a>
         </div>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">

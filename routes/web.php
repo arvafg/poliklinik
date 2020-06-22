@@ -22,9 +22,18 @@ Route::get('/', 'HomeController@home');
 Route::get('/about', 'HomeController@about');
 Route::post('/home/create','HomeController@create');
 
-//login
+Auth::routes(); //Auth::routes();
+
+Route::middleware('auth')->group(function(){
+    Route::get('/operator',function(){
+        return view('operator.info_operator');
+    })->name('operator.info_operator');
+});
+
+//login operator
 Route::get('/login','AuthController@login');
-Route::post('/postlogin','AuthController@postlogin');
+Route::post('/postlogin','AuthController@postlogin')->name('login');
+Route::get('/logout','AuthController@logout');
 //dashboard
 Route::get('/dashboard','DashboardController@index');
 
@@ -84,3 +93,11 @@ Route::post('/penyakit/create','PenyakitController@create');
 Route::get('/penyakit/{id}/edit_penyakit','PenyakitController@edit');
 Route::post('/penyakit/{id}/update','PenyakitController@update');
 Route::get('/penyakit/{id}/delete','PenyakitController@delete');
+
+// Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');
+
+// Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');

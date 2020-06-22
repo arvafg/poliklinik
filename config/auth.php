@@ -44,8 +44,19 @@ return [
         'api' => [
             'driver' => 'token',
             'provider' => 'users',
-            'hash' => false,
         ],
+
+        'operator' => [
+            'driver' => 'session',
+            'provider' => 'operator',
+        ],
+
+        'apioperator' => [
+            'driver' => 'token',
+            'provider' => 'operator'
+        ],
+
+
     ],
 
     /*
@@ -69,6 +80,11 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => App\User::class,
+        ],
+
+        'operator' => [
+            'driver' => 'eloquent',
+            'model' => App\Login_Operator::class,
         ],
 
         // 'users' => [
